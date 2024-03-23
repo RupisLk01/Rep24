@@ -1,0 +1,34 @@
+
+body {
+    /* Ustaw obrazek jako tło */
+    background-image: url('fototapety-letni-krajobraz-przyrody-w-poblizu-alp.jpg.jpg');
+
+    /* Dostosuj sposób, w jaki obrazek ma być powtarzany (repeat) lub rozciągany (cover) */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Ustaw pozycję obrazka na centrum lub inny wybrany punkt */
+    background-position: center;
+
+    /* Domyślnie obrazek będzie widoczny na całej stronie */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dodatkowe style dla zawartości strony */
+.content {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    box-shadow: 2px 6px 10px rgba(128, 128, 128, 0.5);
+}
+.text1{
+    color: #0043ae;
+    font-size: x-large;
+}
+

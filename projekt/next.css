@@ -1,0 +1,19 @@
+body {
+
+    /* Ustaw obrazek jako tło */
+    background-image: url('święta-geometria-piramida.jpg');
+
+    /* Dostosuj sposób, w jaki obrazek ma być powtarzany (repeat) lub rozciągany (cover) */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Ustaw pozycję obrazka na centrum lub inny wybrany punkt */
+    background-position: center;
+
+    /* Domyślnie obrazek będzie widoczny na całej stronie */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
