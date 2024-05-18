@@ -24,11 +24,14 @@ body {
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-    color: black;
-    box-shadow: 2px 6px 10px rgba(128, 128, 128, 0.5);
+    color: #458bed;
+    box-shadow: 2px 6px 10px rgba(128, 127, 222, 0.5);
+    backdrop-filter: blur(10px);
+    color:blue;
 }
 .text1{
-    color: #0043ae;
-    font-size: x-large;
+    color:blue;
+    font-size: 35px;
 }
+.
 

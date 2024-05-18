@@ -1,7 +1,7 @@
 body {
 
     /* Ustaw obrazek jako tło */
-    background-image: url('święta-geometria-piramida.jpg');
+    background-image: url('svetlyj_fon_svet_50370_1920x1080.jpg');
 
     /* Dostosuj sposób, w jaki obrazek ma być powtarzany (repeat) lub rozciągany (cover) */
     background-repeat: no-repeat;
@@ -16,4 +16,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content{
+    color: #515050;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+.content::-webkit-scrollbar{
+    width: 0.25rm;
+    background: #ffffff40;
+}
+.content::-webkit-scrollbar-thumb{
+    background: #ffffff;
+    border-radius: 8px;
+}
+.foto{
+    position: absolute;
+    display: flex;
+    top:80px;
+    left: 40px;
+    box-shadow: -1px 1px 5px #1369ea;
+}
+.glowny_text{
+    position: absolute;
+    display:flex;
+    top:-15px;
+    left: 450px;
+    color: #0043ae;
+    font-size: xxx-large;
+}
+.Text{
+    display: flex;
+    position: absolute;
+    color: #0043ae;
+    font-family: "Georgia";
+    font-size: medium;
+    top: 75px;
+    left: 250px;
 }
