@@ -1,0 +1,17 @@
+.text
+{
+text-align: center;
+color:blueviolet;
+font-size: 100px;
+}
+.about{
+    size: 50pt;
+}
+.items{
+    text-align: left;
+    border: 5pt;
+    border-radius: 5pt;
+    border-color: black;
+    box-shadow: 10;
+    text-size-adjust: 5;
+}

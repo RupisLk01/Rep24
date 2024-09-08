@@ -1,0 +1,18 @@
+.text
+{
+text-align: center;
+color:blueviolet;
+font-size: 100px;
+}
+.about{
+    size: 50pt;
+}
+.items{
+    margin: 80pt;
+    background: rgb(35, 252, 151);
+    text-align: left;
+    border: 10pt;
+    border-color: black;
+    box-shadow: 10;
+    text-size-adjust: 5;
+}

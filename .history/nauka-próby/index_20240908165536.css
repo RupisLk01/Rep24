@@ -1,0 +1,14 @@
+.text
+{
+text-align: center;
+color:blueviolet;
+font-size: 100px;
+}
+.items{
+    margin:auto;
+    border: 5pt;
+    border-radius: 5pt;
+    border-color: black;
+    box-shadow: 10;
+    text-size-adjust: 5;
+}
